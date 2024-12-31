@@ -13,8 +13,10 @@ interface AnswerChooser {
     fun getAnswer(question: String): String
 
     /**
-     * сеттер пороргового значения, пересечение которого считается успехом в распознавании
+     * Сеттер пороргового значения, пересечение которого считается успехом в распознавании
      * @param value пороговое значение
      */
     fun setThresholdValue(value: Double)
+    fun getSynonyms(): List<String>
+    fun getAnswers(): List<String>
 }

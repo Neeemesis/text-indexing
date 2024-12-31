@@ -18,7 +18,7 @@ class InputUnit(input: String, method: Methods = Methods.STATISTIC) {
 
     init {
         /**
-         * обычное разделение по словам для статистического выбора ответа
+         * Обычное разделение по словам для статистического выбора ответа
          */
         unit = input.split(' ')
     }

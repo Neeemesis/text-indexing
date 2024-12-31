@@ -10,6 +10,6 @@ import interfaces.Teacher
  */
 class StatisticTeacher : Teacher {
     override fun study(input: String): Boolean {
-        TODO("Not yet implemented")
+        return false
     }
 }
