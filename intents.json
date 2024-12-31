@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Good morning",
+        "Good evening",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey! How can I help you?",
+        "Good to see you!",
+        "Hi! What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "I'm off"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you next time!",
+        "Take care!",
+        "Bye! Have a great day!",
+        "Catch you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Much appreciated",
+        "I'm grateful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "Glad I could help!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help me please",
+        "What can you do?",
+        "I need support"
+      ],
+      "responses": [
+        "Of course! How can I assist you?",
+        "Sure! Let me know what you need help with.",
+        "I'm here to help! Tell me more.",
+        "Absolutely! What seems to be the issue?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather?",
+        "Is it going to rain?",
+        "Weather forecast",
+        "What's the temperature?"
+      ],
+      "responses": [
+        "I'm not sure right now, but you can check your local forecast online.",
+        "It depends on your location. Have you tried checking a weather app?",
+        "Let me know your city, and I can guide you to a forecast.",
+        "Weather information is just a click away!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes?",
+        "Make me laugh",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why don’t skeletons fight each other? They don’t have the guts!",
+        "Why did the scarecrow win an award? He was outstanding in his field!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why don’t scientists trust atoms? Because they make up everything!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Do you know the time?",
+        "Can you tell me the time?",
+        "What's the current time?"
+      ],
+      "responses": [
+        "I'm not sure about the exact time, but your device should have the answer.",
+        "Check your clock or phone for the current time.",
+        "It's time to shine! Just kidding—check your watch.",
+        "Time flies when you're chatting with me!"
+      ]
+    },
+    {
+      "tag": "compliments",
+      "patterns": [
+        "You're awesome",
+        "I like you",
+        "You're smart",
+        "Great job",
+        "You're helpful"
+      ],
+      "responses": [
+        "Thank you! You're amazing too!",
+        "That's so kind of you to say!",
+        "I'm flattered! You're awesome yourself!",
+        "Thanks! I'm glad I could help."
+      ]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": [
+        "How's it going?",
+        "What's new?",
+        "How are things?",
+        "What's happening?"
+      ],
+      "responses": [
+        "I'm just a bot, but I'm doing great! How about you?",
+        "Everything's good here! How can I help you?",
+        "I'm here and ready to chat! What's on your mind?",
+        "Life's good in the digital world! What about you?"
+      ]
+    }
+  ]
+}

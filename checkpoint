@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/julia/Work/text-indexing/chatbot_model.tflearn"
+all_model_checkpoint_paths: "/Users/julia/Work/text-indexing/chatbot_model.tflearn"
